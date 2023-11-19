@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row p-3">
+            <div class="col text-center">
+                <h1>FORMULARIO</h1>
+                <h2>Cadastro</h2>
+            </div>
+        </div>
+        <h2>Preencha com as suas informações.</h2>
+        <div class="col p-3 mb-4 bg-dark-subtle border"> 
+            <form>
+                    <div>
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" id="nome" name="nome" class="form-control">
+                        <label for="sobrenome" class="form-label">Sobre nome:</label>
+                        <input type="text" id="sobrenome" name="sobrenome" class="form-control">
+                    </div>
+                    <div>
+                        <label for="idade" class="form-label">Idade:</label>
+                        <input type="number" id="idade" name="idade" class="form-control">
+                    </div>
+                    <div>
+                        <label for="peso" class="form-label">Peso:</label>
+                        <input type="number" id="peso" name="peso" class="form-control">
+                    </div>
+        
+                    <div class="m-3">
+                        <h3>Sexo</h3>
+                        <input id="sexo" type="radio" class="form-control">masculino
+                        <input id="sexo" type="radio"  class="form-control">feminino
+                        <input id="sexo" type="radio"  class="form-control">outro
+                    </div>
+                    <h2>Quais são suas preferencias?</h2>
+                    <div class="m-3">
+                        <input id="musicas" type="checkbox"  class="form-control">musicas
+                        <input id="livros" type="checkbox" class="form-control">livros
+                        <input id="filmes" type="checkbox" class="form-control">filmes
+                        <input id="series" type="checkbox"  class="form-control">series
+                        <input id="esporte" type="checkbox"  class="form-control">esporte
+                    </div>
+                    <button type="submit" class="btn btn-primary m-3">Enviar</button>
+            </form>
+        </div>
+        <button class="empresa"><a href="/empresa/index.html">EMPRESA</a></button>
+        <script src="js/scripit.js"></script>
+</div>
+</body>
+</html>

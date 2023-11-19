@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(195, 172, 172);
+}
+.logo{
+    width: 55px;
+}
+ul{
+    list-style-type: none;
+    padding: 5%;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40%;
+}
+.foto{
+    width: 85%;
+}
+.barba{
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    color: white;
+    background-color: rgb(172, 167, 162);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px
+}
+button:hover{
+    background-color: orange;
+}
+.oi{
+    color: black;
+    text-decoration: none;
+}
+.carv{
+    color: orange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
